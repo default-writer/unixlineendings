@@ -1,8 +1,8 @@
-# Web site
-
-[unixlineendings](https://unixlineendings.experimentalcommunity.org)
-
 # UNIX line endings
+
+[Web site](https://unixlineendings.experimentalcommunity.org)
+
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=hack2root.unixlineendings)
 
 Converts from Windows (CRLF) to UNIX (LF) line endings style using Visual Studio
 
