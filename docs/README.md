@@ -6,7 +6,7 @@
 
 Converts from Windows (CRLF) to UNIX (LF) line endings style using Visual Studio
 
-UNIX line endings  extension provides integrated support of replacing CR LF with LF in open files
+UNIX line endings  extension provides integrated support for replacing CR LF with LF in open files
 
 Featured:
 
