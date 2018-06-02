@@ -5,10 +5,11 @@
         <DisplayName>UnixLineEndings</DisplayName>
         <Description xml:space="preserve">Converts from Windows (CRLF) to UNIX (LF) line endings style</Description>
         <MoreInfo>https://github.com/hack2root/unixlineendings</MoreInfo>
-        <License>https://github.com/hack2root/unixlineendings/blob/master/LICENSE</License>
+        <GettingStartedGuide>https://unixlineendings.experimentalcommunity.org</GettingStartedGuide>
         <ReleaseNotes>https://github.com/hack2root/unixlineendings/readme.md</ReleaseNotes>
-        <Icon>UnixLineEndingsCommandPackage.ico</Icon>
-        <Tags>Unix,Line Endings,Editor,CRLF,LF</Tags>
+        <Icon>Resources\UnixLineEndings.ico</Icon>
+        <PreviewImage>Resources\UnixLineEndingsCommand.png</PreviewImage>
+        <Tags>Unix; Editor; CRLF; LF; style; code; tools</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 16.0)" />

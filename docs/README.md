@@ -1,7 +1,20 @@
+# Web site
+
+[unixlineendings](https://unixlineendings.experimentalcommunity.org)
+
 # UNIX line endings
 
 Converts from Windows (CRLF) to UNIX (LF) line endings style using Visual Studio
 
-# Web site
+UNIX line endings  extension provides integrated support of replacing CR LF with LF in open files
 
-[unixlineendings](https://unixlineendings.experimentalcommunity.org)
+Featured:
+
+- Tools menu item
+- Tool window output
+- Undo/redo
+- Keyboard shortcuts
+
+Main feature is that this extension uses internal COM+ interfaces and do not touches files on a disk. Imagine this is a recorded macro for text replacement and deployed as VSIX bundle. Implementation works internally through DTE2 interface, so you never get undebaggable code due to source code mismatch.
+
+You can also assign command binding for this extension as Alt + N keyboard macro for fast user experience

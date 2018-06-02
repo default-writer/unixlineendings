@@ -57,7 +57,7 @@
     <WarningLevel>4</WarningLevel>
     <LangVersion>latest</LangVersion>
     <DebugSymbols>true</DebugSymbols>
-    <CopyVsixExtensionFiles>True</CopyVsixExtensionFiles>
+    <CopyVsixExtensionFiles>False</CopyVsixExtensionFiles>
     <CopyVsixExtensionLocation>content</CopyVsixExtensionLocation>
   </PropertyGroup>
   <ItemGroup>
@@ -74,8 +74,14 @@
     <None Include="UnixLineEndings.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\UnixLineEndings.ico" />
-    <Content Include="Resources\UnixLineEndingsCommand.png" />
+    <Content Include="Resources\UnixLineEndings.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Resources\UnixLineEndingsCommand.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <VSCTCompile Include="UnixLineEndingsCommandPackage.vsct">
       <ResourceName>Menus.ctmenu</ResourceName>
       <SubType>Designer</SubType>

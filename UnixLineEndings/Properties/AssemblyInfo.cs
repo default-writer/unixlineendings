@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Build.VSIXProject")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("UnixLineEndings")]
+[assembly: AssemblyDescription("Converts from Windows (CRLF) to UNIX (LF) line endings style using Visual Studio")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Build.VSIXProject")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCompany("experimentalcommunity.org")]
+[assembly: AssemblyProduct("UnixLineEndings")]
+[assembly: AssemblyCopyright("(c) Artur Mustafin (hack2root)")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,3 +30,5 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: Guid("7524ac1f-df66-4e66-a2f9-674722c1aa56")]
+
