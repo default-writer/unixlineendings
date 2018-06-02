@@ -5,9 +5,9 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnixLineEndings", "UnixLineEndings\UnixLineEndings.csproj", "{0257ED31-BA8B-408A-A47A-9BB97B66DD35}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E12EC064-27FF-44D9-B493-8B1D727909C0}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{EC6D3672-2293-4F4B-BC66-DE3FE40435C1}"
 	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
+		docs\README.md = docs\README.md
 	EndProjectSection
 EndProject
 Global
